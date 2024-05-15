@@ -1,0 +1,72 @@
+.head{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+    width: 50px;
+    height: 80px;
+}
+.formdivs{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.inputdiv{
+    background-color: white;
+    border: 0.3px solid gray;
+    width: 78%;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin: 5px auto;
+}
+label{
+    margin: 10px 70px;
+    
+
+}
+input{
+    width: 79%;
+    height: 40px;
+    border: none;
+    /* border: 0.3px solid gray */
+    margin: 5px;
+}
+input:active{
+    border: none;
+}
+button{
+    width: 79%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #73895d;
+    color:white;margin: 12px auto;
+    
+}
+.loginMethod{
+    display: flex;
+    justify-content: center;
+}
+.loginMethod img{
+    margin: 12px 12px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 6px 6px;
+    background-color: white;
+    border: 1px solid black;
+}
